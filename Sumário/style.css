@@ -24,7 +24,7 @@ body {
 }
 
 .page::before{
-    content: url(./assets/Logo\ Optimus.svg);
+    content: url(../assets/Logo\ Optimus.svg);
     width: 100px;
     position: fixed;
     bottom: 8px;
