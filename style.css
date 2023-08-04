@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #0f172a;
+    background-color: #e5e5e5;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-width: 320px;
+    max-width: 900px;
+    justify-content: center;
+}
+
+.page::before{
+    content: url(./assets/Logo\ Optimus.svg);
+    width: 100px;
+    position: fixed;
+    bottom: 8px;
+    right: 12px;
+}
+
+.header {
+    padding: 32px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+.hero p{
+    border: 3px solid #075985;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 16px;
+    width: 900px;
+}
+
+.hero_red{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+.hero_red p{
+    border: 3px solid #cc0d0d;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 16px;
+    width: 900px;
+}
+
+p{
+    padding: 0 64px;
+    line-height: 36px;
+}
+
+p[center] {
+    text-align: center;
+}
+
+br{
+    padding: 0 64px;
+}
+
+img {
+    padding: 0 64px;
+    width: 640px;
+    align-self: center;
+}
+
+.hero img {
+    height: 100px;
+    width: 100px;
+    padding: 12px;
+}
+
+.hero strong {
+    background-color: #171717;
+    color: #fff;
+    padding: 4px 12px;
+    border: 0;
+    border-radius: 8px;
+}
+
+div [center] {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.hero_red img {
+    height: 100px;
+    width: 100px;
+    padding: 12px;
+}
+
+.HorizonImage{
+    padding: 0 64px;
+    height: 640px;
+    width: 480px;
+    align-self: center;
+}
+
+.ExtractHorizonImage{
+    padding: 0 64px;
+    height: 480px;
+    /* width: 360px; */
+    align-self: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 28px;
+}
+
+.btnFim{
+    display: flex;
+    justify-content: end;
+    padding: 28px;
+}
+
+.btnFim a {
+    text-decoration: none;
+    color:#fafaf9;
+    background-color: #0d2c3e;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
+.btnFim a:hover{
+    transform: scale(1.05);
+    background-color: #0f172a;
+}
+
+.btnIni{
+    display: flex;
+    justify-content: start;
+    padding: 28px;
+}
+
+.btnIni a {
+    text-decoration: none;
+    color:#fafaf9;
+    background-color: #0d2c3e;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
+.btnIni a:hover{
+    transform: scale(1.05);
+    background-color: #0f172a;
+}
+
+
+.nav a {
+    text-decoration: none;
+    color:#fafaf9;
+    background-color: #0d2c3e;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
+.nav a:hover{
+    transform: scale(1.05);
+    background-color: #0f172a;
+}
+
+#AZUL{
+    color: #e0f2fe;
+    color: #bae6fd;
+    color: #7dd3fc;
+    color: #38bdf8;
+    color: #0ea5e9;
+    color: #0284c7;
+    color: #0369a1;
+    color: #075985;
+    color: #0c4a6e;
+    color: #0d2c3e;
+    color: #0f172a;
+    color: #000e21; 
+}
+
+ #CINZA{
+     color: #171717;
+     color: #262626;
+     color: #404040;
+     color: #525252;
+     color: #737373;
+     color: #a3a3a3;
+     color: #d4d4d4;
+     color: #e5e5e5;
+     color: #fafaf9;
+ }
+
+  #VERMELHO{
+    color: rgb(192, 80, 77);
+    /* 192
+    80
+    77 */
+  }
+  #VERDE{
+    color: rgb(78, 97, 40);
+    /* 78
+    97
+    40 */
+  }
+  #LARANJA{
+    color: rgb(247, 150, 70);
+    /* 247
+    150
+    70 */
+  }
+  #AZUL_DOS_DESTAQUES{
+    color: rgb(31, 73, 125);
+    /* 31
+    73
+    125 */
+  }
+  #ROXO{
+    color: rgb(128, 100, 162);
+    /* 128
+    100
+    162 */
+  }
+    
