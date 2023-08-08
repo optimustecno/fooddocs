@@ -204,46 +204,46 @@ div [center] {
     color: #000e21; 
 }
 
- #CINZA{
-     color: #171717;
-     color: #262626;
-     color: #404040;
-     color: #525252;
-     color: #737373;
-     color: #a3a3a3;
-     color: #d4d4d4;
-     color: #e5e5e5;
-     color: #fafaf9;
- }
+#CINZA{
+    color: #171717;
+    color: #262626;
+    color: #404040;
+    color: #525252;
+    color: #737373;
+    color: #a3a3a3;
+    color: #d4d4d4;
+    color: #e5e5e5;
+    color: #fafaf9;
+}
 
-  #VERMELHO{
+#VERMELHO{
     color: rgb(192, 80, 77);
     /* 192
     80
     77 */
-  }
-  #VERDE{
+}
+#VERDE{
     color: rgb(78, 97, 40);
     /* 78
     97
     40 */
-  }
-  #LARANJA{
+}
+#LARANJA{
     color: rgb(247, 150, 70);
     /* 247
     150
     70 */
-  }
-  #AZUL_DOS_DESTAQUES{
+}
+#AZUL_DOS_DESTAQUES{
     color: rgb(31, 73, 125);
     /* 31
     73
     125 */
-  }
-  #ROXO{
+}
+#ROXO{
     color: rgb(128, 100, 162);
     /* 128
     100
     162 */
-  }
+}
     
