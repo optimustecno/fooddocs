@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root{
+    font-size: 62.5%; /* 10px */
+}
+
 body {
     color: #0f172a;
     background-color: #e5e5e5;
@@ -17,7 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    min-width: 320px;
+    font-size: 1.8rem;
     max-width: 900px;
     justify-content: center;
 }
@@ -68,6 +72,14 @@ body {
     text-align: justify;
     padding: 16px;
     width: 900px;
+}
+
+h1{
+    font-size: 3.2rem;
+}
+
+.imgAlert{
+    width: 350px;
 }
 
 p{
@@ -175,7 +187,6 @@ div [center] {
     background-color: #0f172a;
 }
 
-
 .nav a {
     text-decoration: none;
     color:#fafaf9;
@@ -187,6 +198,71 @@ div [center] {
 .nav a:hover{
     transform: scale(1.05);
     background-color: #0f172a;
+}
+
+@media(max-width: 768px) {
+    body{
+        margin-inline: auto;
+        width: 100%;
+    }
+    
+    .page{
+        max-width: 100%;
+    }
+    
+    .hero{
+        width: 100%;
+    }
+    .hero img {
+        height: 0px;
+        width: 0px;
+    }
+
+    .header {
+        font-size: 2.4rem;
+        padding: 16px;
+    }
+
+    p{
+        font-size: 1.2rem;
+        padding: 0 24px;    
+    }
+
+    img {
+        padding: 0 32px;
+        width: 290px;
+        align-self: center;
+    }
+    
+    .nav a {
+        text-decoration: none;
+        color:#fafaf9;
+        background-color: #0d2c3e;
+        padding: 6px 12px;
+        border-radius: 8px;
+        font-size: 1.2rem;
+        margin-bottom: 100px;
+    }
+    .btnIni a {
+        text-decoration: none;
+        color:#fafaf9;
+        background-color: #0d2c3e;
+        padding: 6px 12px;
+        border-radius: 8px;
+        font-size: 1.2rem;
+        margin-bottom: 100px;
+    }
+    
+    .btnFim a {
+        text-decoration: none;
+        color:#fafaf9;
+        background-color: #0d2c3e;
+        padding: 6px 12px;
+        border-radius: 8px;
+        font-size: 1.2rem;
+        margin-bottom: 100px;
+    }
+
 }
 
 #AZUL{
