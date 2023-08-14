@@ -210,10 +210,17 @@ div [center] {
         max-width: 100%;
     }
     
-    .hero{
+    .HorizonImage{
+        padding: 0 64px;
+        height: 240px;
+        width: 280px;
+        align-self: center;
+    }
+
+    .hero, .hero_red{
         width: 100%;
     }
-    .hero img {
+    .hero img, .hero_red img {
         height: 0px;
         width: 0px;
     }
