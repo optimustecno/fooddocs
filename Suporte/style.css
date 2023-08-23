@@ -1,0 +1,45 @@
+/* SUMARIO */
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;  
+}
+
+body {
+    color: #0f172a;
+    background-color: #e5e5e5;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 1.6rem;
+    min-width: 320px;
+    max-width: 900px;
+    justify-content: center;
+}
+
+.page::before{
+    content: url(../assets/Logo\ Optimus.svg);
+    width: 100px;
+    position: fixed;
+    bottom: 8px;
+    right: 12px;
+}
+
+.header {
+    padding: 32px;
+}
+
+h1{
+    font-size: 3.2rem;
+}
